@@ -23,7 +23,7 @@ public class App {
         }
     }
 
-    private static String getResponseFromUrl(String urlString) throws Exception {
+    private static String getResponseFromUrl(String urlString) {
 
         StringBuilder response = new StringBuilder();
         try {
